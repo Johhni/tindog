@@ -1,0 +1,109 @@
+body{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+header,
+.feed,
+.buttons{
+    display: flex;
+}
+
+header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.725em 0.625em;
+}
+
+.logo{
+    width: 82px;
+    height: 42px;
+}
+
+.profile-icon,
+.chat-icon{
+    height: 34px;
+}
+
+.profile-icon{
+    width: 32.33px;
+}
+
+.feed{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-container img{
+    width: 534px;
+    height: 751px;
+    border-radius: 15px;
+}
+
+.info{
+    color: #ffffff;
+    position: absolute;
+    top: 43.75em;
+    left: 2.82em;
+    right: 0;
+    bottom: 0;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+p{
+    margin-top: 0.2em;
+    font-size: 1rem;
+    color: #B7B7B7;
+}
+
+.buttons{
+    margin: 0.725em 0;
+    justify-content: center;
+    align-items: center;
+    gap: 1em
+}
+
+.button{
+    width: 91.87px;
+    height: 91.87px;
+    background-color:  #ffffff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 0 #ccc;
+    padding-top: 4px
+}
+
+#accept-btn:hover,
+#reject-btn:hover{
+    cursor: pointer;
+}
+
+#reject-btn:hover{
+    background-color: #FFE7EF;
+}
+
+#accept-btn:hover{
+    background-color: #DBFFF4;
+}
+
+.accept,
+.reject{
+    width: 234px;
+    height: 117px;
+    position: absolute;
+    top: 7em;
+    left: 2.5em;
+    transform: rotate(-30deg);
+    display: none;
+}
