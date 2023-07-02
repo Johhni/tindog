@@ -36,7 +36,7 @@ header{
     align-items: center;
 }
 
-.img-container{
+main{
     position: relative;
 }
 
@@ -49,8 +49,8 @@ header{
 .info{
     color: #ffffff;
     position: absolute;
-    top: 43.75em;
-    left: 2.82em;
+    top: 41.75em;
+    left: 2em;
     right: 0;
     bottom: 0;
 }
@@ -102,8 +102,8 @@ p{
     width: 234px;
     height: 117px;
     position: absolute;
-    top: 7em;
-    left: 2.5em;
+    top: 5em;
+    left: 2.2em;
     transform: rotate(-30deg);
     display: none;
 }
