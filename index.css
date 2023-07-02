@@ -36,7 +36,7 @@ header{
     align-items: center;
 }
 
-main{
+.container{
     position: relative;
 }
 
